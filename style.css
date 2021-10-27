@@ -1,0 +1,91 @@
+body {
+  background-color: #D8E3E7;
+  font-family: 'Courier New', Courier, monospace;
+  color: antiquewhite;
+  font-size: medium;
+}
+
+h1, h2 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: white;
+  font-size: large;
+  line-height: normal;
+}
+p {
+  font-size: larger;
+  color: white;
+  font-weight: bold;
+}
+a {
+  color: white;
+  text-decoration: solid;
+}
+
+a:hover {
+  color: #9A9483;
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+  }
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+    text-align: center;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+    text-align: center;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+    text-align: center;
+    margin: 0 auto;
+  }
+}
+
+#banner {
+  background-color: #51C4D3;
+  padding: 30px;
+  border: 1px solid lightgrey;
+  margin: 5px;
+  border-radius: 15px;
+  text-align: center;
+}
+
+
+.card{
+  background-color: #126E82;
+  padding: 30px;
+  border: 1px solid lightgrey;
+  margin: 5px;
+  border-radius: 15px;
+  text-align: center;
+}
+
+#social_media_icons {
+  background-color: #132C33;
+  padding: 5px;
+  height: 150px;
+  border: 1px solid lightgrey;
+  border-radius: 15px;
+}
+
+.list_inline > li {
+  display: inline-blo;
+  padding: 0px 20px;
+}
+#image_avatar {
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  align-items: center;
+ }
